@@ -112,7 +112,6 @@ box-shadow: 0px 0px 20px black;
 }
 .skills{
   background-color: black;
- //margin-bottom: 100px;
  height: 700px;
  background-image: url('sb4.webp');
  background-repeat: no-repeat;
@@ -124,29 +123,23 @@ box-shadow: 0px 0px 20px black;
   margin-bottom: 200px;
   font size: 90px;
   color: #980F5A;
-  //transform: rotate(-20deg) skew(25deg);
   animation: animate 7s ease-in-out infinite;
-  //font-family: 'Righteous', cursive;
+
   font-weight: lighter;
   font-family: 'Titan One', cursive;
 }
 @keyframes animate {
 0%,100%
 {
-// transform: rotate(-20deg) skew(25deg) translate(0,0);
   text-shadow: -1px 1px 0 white;
 }
 70%{
-  //transform: rotate(-20deg) skew(25deg) translate(50px,-50px);
-    text-shadow: 90px 50px 0 white;
 
-    //filter: blur(2px);
+    text-shadow: 90px 50px 0 white;
 }
 30%{
-  //transform: rotate(-20deg) skew(25deg) translate(50px,-50px);
 
     text-shadow: -90px 50px 0 white;
-    //filter: blur(2px);
 }
 }
 .S{
@@ -173,11 +166,13 @@ font-size: 20px;
 }
 .projects{
   margin-top: 60px;
- background-image: url('prob.webp');
- background-repeat: no-repeat;
- background-size: 100% 100%;
   margin-bottom: 100px;
-  height: 700px;
+}
+.Projects{
+  background-image: url('prob.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    height: 700px;
 }
 .projects h1{
   color: white;
