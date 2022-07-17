@@ -67,6 +67,7 @@ font-family: 'Righteous', cursive;
 .head1 h3{
 font-family: monospace;
   color: black;
+  text-shadow: 0 0 10px white;
 font-size: 30px;
 }
 .me{
