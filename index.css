@@ -27,14 +27,7 @@ body{
   margin-bottom: 0px;
 }
 
-.btn{
-  background-color: #980F5A;
-  color: white;
-  border-radius: 20px;
-  font-family: monospace;
-  font-weight: bold;
-  margin-right: 100px;
-}
+
 .right{
 margin-left: 210px;
 text-shadow: 1px 1px 1px black;
